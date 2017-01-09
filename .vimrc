@@ -3,6 +3,9 @@ set nocompatible
 source ~/.vim/bundles.vim
 source ~/.vim/ui.vim
 
+" map leader to comma
+let mapleader="\\"
+
 " CTags
 map <Leader>T :!ctags --extra=+f -R *<CR><CR>
 set tags=tmp/tags;/,./tmp/tags;/,tags;/,./tags;/
@@ -35,3 +38,6 @@ map <Leader>x :silent . w ! sh > ~/.vim_cmd.out<CR>:new ~/.vim_cmd.out<CR>
 
 " suppress netrw history file from being saved
 let g:netrw_dirhistmax=0
+
+" enable filetype plugins
+filetype plugin on

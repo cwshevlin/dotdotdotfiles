@@ -4,7 +4,6 @@ syntax on
   set ruler
   set number
   set guioptions=ce
-  set showmatch                 " Briefly jump to a paren once it's balanced
   set linespace=2
   set laststatus=2
 
@@ -24,7 +23,7 @@ syntax on
   set expandtab
   set nowrap
   set list
-  set listchars=tab:▸\ ,eol:¬
+  set listchars=tab:▸\
   set backspace=indent,eol,start " allow backspacing over everything in insert mode
   " Highlight end of line whitespace
     let hiExtraWhiteSpace = "hi ExtraWhitespace ctermbg=red guibg=red"
@@ -58,8 +57,19 @@ syntax on
   set smartcase
 
 " Misc
-  let mapleader = ','
+  let mapleader = '\\'
   set history=1000
   set autoread
   set nohidden
   set complete=.,b,u,]
+
+  function! NumberToggle()
+    if(&relativenumber == 1)
+      set number
+    else
+      set relativenumber
+    endif
+  endfunc
+
+  nnoremap <C-n> :call NumberToggle()<cr>
+
