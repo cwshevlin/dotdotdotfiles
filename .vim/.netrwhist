@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/Users/colin/.dotfiles/bundle'
+let g:netrw_dirhist_2='/Users/colin/.dotfiles'
+let g:netrw_dirhist_3='/Users/colin/.dotfiles/doc'
+let g:netrw_dirhist_4='/Users/colin/.dotfiles'
+let g:netrw_dirhist_5='/Users/colin/.dotfiles/plugin'
+let g:netrw_dirhist_6='/Users/colin/.dotfiles'
+let g:netrw_dirhist_7='/Users/colin'
+let g:netrw_dirhist_8='/Users'
