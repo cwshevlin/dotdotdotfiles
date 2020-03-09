@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/Users/cwshevlin/developer/alexis-and-tyler'
+let g:netrw_dirhist_2='/Users/cwshevlin/developer/alexis-and-tyler/www'
+let g:netrw_dirhist_3='/Users/cwshevlin/developer/alexis-and-tyler'
+let g:netrw_dirhist_4='/Users/cwshevlin/developer/alexis-and-tyler/www'
+let g:netrw_dirhist_5='/Users/cwshevlin/developer/alexis-and-tyler/www/css'
+let g:netrw_dirhist_6='/Users/cwshevlin/developer/alexis-and-tyler/www'
+let g:netrw_dirhist_7='/Users/cwshevlin/developer/alexis-and-tyler'

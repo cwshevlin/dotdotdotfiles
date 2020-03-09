@@ -1,0 +1,7 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+	name = Colin Shevlin
+	email = cwshevlin@gmail.com
+[core]
+	excludesfile = /Users/cwshevlin/.gitignore_global

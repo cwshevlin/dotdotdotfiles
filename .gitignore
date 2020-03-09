@@ -1,6 +1,7 @@
 vim/dirs/*
 vim/bundle/*
 .DS_Store
+*/.DS_Store
 
 # https://sublime.wbond.net/docs/syncing
 Package Control.last-run
